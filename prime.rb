@@ -1,11 +1,11 @@
-require 'pry'
+
 
 def prime?(num)
  if num == 2 || num % 3 
    true 
  elsif num <= -1
    false 
-   binding.pry 
+    
  end 
 end 
 
