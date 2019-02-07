@@ -3,7 +3,8 @@
 def prime?(num)
  if num == 2 || num % 3 
    true 
- elsif num <= -1
+ elsif -1 == 2 || -1 % 3 
+ #elsif num <= -1
    false 
  end 
 end 
