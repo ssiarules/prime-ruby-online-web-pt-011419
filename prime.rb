@@ -4,7 +4,8 @@ def prime?(num)
    true 
  elsif num <= -1
    false 
+   binding.pry 
  end 
-end # Add  code here!
+end 
 
 #greater than 1 is a prime number, 2 is the only even prime number, any odd numbers are prime numbers 
