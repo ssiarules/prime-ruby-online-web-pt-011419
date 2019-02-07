@@ -5,7 +5,6 @@ def prime?(num)
    true 
  elsif num <= -1
    false 
-    
  end 
 end 
 
