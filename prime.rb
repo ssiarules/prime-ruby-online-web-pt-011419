@@ -6,7 +6,6 @@ def prime?(num)
  elsif num <= -1
    false 
  end 
- num 
 end 
 
 #greater than 1 is a prime number, 2 is the only even prime number, any odd numbers are prime numbers 
